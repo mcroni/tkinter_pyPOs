@@ -1,6 +1,4 @@
 #! /usr/bin/env python
-from __future__ import print_function
-
 from tkinter import *
 from tkinter import ttk
 from PIL import Image, ImageTk
@@ -32,7 +30,7 @@ class MainClass:
 
         # # possible themes we could use. Checked the ttk docs and they are:
         # # alt, clam, classic
-        self.style.theme_use("clam")
+        #self.style.theme_use("clam")
 
         self.menubar = Menu(self.master)
 
